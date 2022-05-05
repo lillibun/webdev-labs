@@ -1,0 +1,21 @@
+1. What is the value of SQLAlchemy?
+
+SQLAlchemy is helpful because it allows for easy communication between databases and Python programs.
+SQLAlchemy can essentially translate Python classes to tables for databases and makes it so that Python
+function calls can be translated to SQL statements, essentially making it easier on the common programmer.
+Overall SQLAlchemy makes it so that the user doesn't need to know lower-level SQL database instructions
+and calls, and can instead use more higher level, Python language and methods. 
+ 
+2. What is a model?
+
+A model is a Python class that represents a database table. As seen in lab 4, the model is a data table
+populated with certain types of data labels, read-only properties and the data itself. Overall, it is 
+a python class, that defines structure for a database table. 
+
+3. What is a view?
+
+A view file is used to initialize routes ti certain APIS and is used to get information from
+that certain view. For example, in the "following.py" view file the user is able to get the path,
+as well as create a new "following" record, delete a "following" record, or return all of
+a certain user's "following" records. Overall the view allows the user to interact with certain 
+database tables using defined functions.
